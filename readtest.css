@@ -1,0 +1,118 @@
+#readtest-44-header {
+  text-align: left;
+  width: 100%; 
+  background: yellow;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid rgba(0,0,0,0.85);
+  padding: 0;
+  margin: 0 0 10px 0;
+  vertical-align: top;
+}
+
+#readtest-44-header-notification {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  display: inline;
+  animation: readtest-44-popin;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+  padding: 0 10px;
+  line-height: 30px;
+  color: rgba(0,0,0,0.85);
+  vertical-align: inherit;
+}
+
+#readtest-44-header-close, #readtest-44-footer-close {
+  float: right;
+  padding: 7px;
+  cursor: pointer;
+  opacity: 0.25;
+  transition: opacity 0.25s;
+  vertical-align: inherit;
+}
+
+#readtest-44-header-close:hover, #readtest-44-footer-close:hover {
+  opacity: 0.5;
+}
+
+@keyframes readtest-44-popin {
+    from {color: transparent;}
+    to { color: gray;}
+}
+
+#readtest-44-header-restart {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  border-radius: 5px 0 0 0;
+  background: none;
+  height: 30px;
+  border: 0;
+  border-right: 1px solid rgba(0,0,0,0.85);
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 30px;
+  color: rgba(0,0,0,0.85);
+  vertical-align: top;
+  transition: background 0.25s;
+}
+
+#readtest-44-header-restart:focus {
+  outline: 1px dotted gray;
+  outline-offset: -1px;
+}
+
+#readtest-44-header-restart:hover {
+  background: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+#readtest-44-footer {
+  text-align: left;
+  width: 100%;
+  background:yellow;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid rgba(0,0,0,0.85);
+  padding: 0;
+  margin: 10px 0 0 0;
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+#readtest-44-footer-done {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  border-radius: 0 0 0 5px;
+  background: none;
+  height: 30px;
+  border: 0;
+  border-right: 1px solid rgba(0,0,0,0.85);
+  padding: 0 10px;
+  line-height: 30px;
+  box-sizing: border-box;
+  color: rgba(0,0,0,0.85);
+  transition: background 0.25s;
+  vertical-align: inherit;
+}
+
+#readtest-44-footer-done:hover {
+  background: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+#readtest-44-footer-done:focus {
+  outline: 1px dotted gray;
+  outline-offset: -1px;
+}
+
+#readtest-44-footer-wc, #readtest-44-footer-time, #readtest-44-footer-wpm  {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 0 10px;
+  line-height: 30px;
+  color: rgba(0,0,0,0.85);
+  vertical-align: inherit;
+}

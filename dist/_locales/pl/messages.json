@@ -1,0 +1,44 @@
+{
+    "howToUse": {
+        "message": "Jak korzystać"
+    },
+    "howToUse_step1": {
+        "message": "Zaznacz tekst."
+    },
+    "howToUse_step2": {
+        "message": "Najedź kursorem myszki na zaznaczony tekst."
+    },
+    "howToUse_step3": {
+        "message": "Naciśnij prawy przycisk myszki."
+    },
+    "howToUse_step4": {
+        "message": "Wybierz z menu \"Reading speed test\"."
+    },
+    "howToUse_step5": {
+        "message": "Przeczytaj tekst."
+    },
+    "howToUse_step6": {
+        "message": "Po zakończeniu kliknij przycisk Przeczytane."
+    },
+    "howToUse_step7": {
+        "message": "Sprawdź wynik, który pojawił się obok przycisku Przeczytane."
+    },
+    "restart": {
+        "message": "Zacznij ponownie"
+    },
+    "done": {
+        "message": "Przeczytane"
+    },
+    "words": {
+        "message": "Wyrazy: "
+    },
+    "time": {
+        "message": "Czas: "
+    },
+    "wordsPerMinute": {
+        "message": "Wyrazów na minutę: "
+    },
+    "timeStarted": {
+        "message": "Zegar włączony"
+    }
+}
