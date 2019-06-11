@@ -14,8 +14,8 @@ describe("countWords", function() {
             ["W Strzebrzeszynie chrząszcz brzmi w trzcinie.", 6],
             ["13 -224 1995 20,5 20.5", 7], // , and . are regarded as word separators.
         ];
-        cases.forEach(([text, count]) =>
-            expect(countWords(text)).toEqual(count));
+        cases.forEach(([text, count], idx) =>
+            expect(countWords(text)).toEqual(count, "case idx: " + idx));
     });
 });
 
