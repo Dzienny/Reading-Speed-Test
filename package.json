@@ -5,7 +5,7 @@
   "description": "This extension lets you measure your reading speed on any web text.",
   "main": "background.js",
   "scripts": {
-    "start": "webpack",
+    "build": "webpack",
     "test": "jasmine"
   },
   "author": "Datea",
